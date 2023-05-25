@@ -18,3 +18,4 @@ plugins/codepress-admin-columns
 plugins/Basic-Auth-master
 plugins/duplicate-page
 plugins/wordpress-importer
+plugins/custom-post-type-ui
