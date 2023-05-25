@@ -1,0 +1,51 @@
+.my-plant-meta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1.3em;
+    font-size: 1.3em;
+    font-weight: 300;
+    padding: 20px 20px;
+    margin: 40px 0;
+    border-radius: 40px;
+}
+
+.my-plant-meta div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    gap: 1.5em;
+    width: 100%;
+}
+
+.my-plant-meta div p:first-child {
+    flex-basis: 35%;
+    text-transform: uppercase
+        /* text-align: right; */
+}
+
+.my-plant-meta div p:last-child {
+    flex-basis: auto;
+    /* text-align: right; */
+}
+
+
+@media only screen and (max-width: 821px) {
+
+    /* .my-plant-meta {
+
+        border: 2px solid #063927;
+    } */
+
+    .my-plant-meta div {
+        gap: 0.5em;
+    }
+
+    .my-plant-meta div p:first-child {
+        flex-basis: auto;
+        text-transform: uppercase
+            /* text-align: right; */
+    }
+
+}
