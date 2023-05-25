@@ -1,4 +1,4 @@
-index.php
+/index.php
 package-lock.json
 languages/
 upgrade/
@@ -19,3 +19,8 @@ plugins/Basic-Auth-master
 plugins/duplicate-page
 plugins/wordpress-importer
 plugins/custom-post-type-ui
+plugins/plant-meta-block/node_modules
+plugins/plant-meta-block/.babelrc
+plugins/plant-meta-block/package.json
+plugins/plant-meta-block/package-lock.json
+plugins/plant-meta-block/webpack.config.js
